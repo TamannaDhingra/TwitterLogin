@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TwitterLogin">
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="200dp"
+        android:src="@drawable/twitter"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textColor="@color/black"
+        android:background="@drawable/textviewbackground"
+        android:padding="10sp"
+        android:id="@+id/twitname"
+        android:hint="UserName"
+        android:layout_marginTop="40sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:textColor="@color/black"
+        android:background="@drawable/textviewbackground"
+        android:padding="10sp"
+        android:id="@+id/twitemail"
+        android:hint="email address"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginBottom="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="120sp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="90dp"
+        android:layout_height="120sp">
+        <ImageView
+
+            android:layout_width="120sp"
+            android:layout_height="120sp"
+            android:id="@+id/twitterprofile"
+            android:scaleType="centerCrop"
+            android:src="@drawable/person"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:enabled="true"
+        android:id="@+id/twitterbtn1"
+        android:layout_marginTop="70dp"/>
+
+    <Button
+        android:id="@+id/twittersignout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="13sp"
+        android:background="#25BAFE"
+        android:backgroundTint="#25BAFE"
+        android:text="Sign Out" />
+
+
+
+
+</LinearLayout>

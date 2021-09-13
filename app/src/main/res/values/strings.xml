@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TwitterLogin</string>
+
+    <string name="API_Key">SCxnNIQyWp1G3A86dHc50DVsd</string>
+    <string name="Api_secreat">Q2gSzD1Bjz4brfYe0sbJEsfCiU1RM8aX8CqeGZ0MaX71UNwogV</string>
+</resources>

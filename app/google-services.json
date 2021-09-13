@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "633064272707",
+    "project_id": "twitterupdate-64849",
+    "storage_bucket": "twitterupdate-64849.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633064272707:android:a48e3fb788d9188a1375f6",
+        "android_client_info": {
+          "package_name": "com.example.twitterlogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633064272707-202kisqka86ovt91s6dj2oi579ridhgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.twitterlogin",
+            "certificate_hash": "12785b84d17c7d8942a805f120d8fc930b8a85f6"
+          }
+        },
+        {
+          "client_id": "633064272707-2fllhemnt6eqvdj2i14l6qms5c3edtpv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvY_yxKyK5x5fysgjUYuw8pDyDHFXrJnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633064272707-2fllhemnt6eqvdj2i14l6qms5c3edtpv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

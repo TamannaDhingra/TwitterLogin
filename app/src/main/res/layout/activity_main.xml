@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Social Login"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:layout_marginTop="45sp"
+        android:layout_marginBottom="50sp"
+        android:textStyle="italic"
+        android:textColor="@color/black"/>
+
+
+
+
+
+
+
+    <Button
+        android:id="@+id/twitterbtn"
+        android:layout_width="320sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FF6C6C"
+        android:layout_marginTop="180sp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#0000CE"
+        android:text="Twitter"
+        app:backgroundTint="#0000CE" />
+
+
+</LinearLayout>
